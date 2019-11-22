@@ -3,7 +3,7 @@ var app = express();
 var engine = require("consolidate"); 
 
 app.set('view engine', 'ejs'); 
-
+app.use('/public', express.static(__dirname + '/public'));
 
 app.get("/", function(req, res){
     res.render("home.ejs"); 
