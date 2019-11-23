@@ -1,4 +1,4 @@
-body {
+.home-body {
     background: url("/public/images/scene.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -15,6 +15,16 @@ html {
 
 h3 {
     font-size: 40px; 
+}
+
+
+.links a {
+    color: white; 
+    font-size: 20px; 
+}
+
+.links {
+    margin-left: 3rem; 
 }
 
 #content{
@@ -84,4 +94,20 @@ hr {
     margin-top: 1rem; 
     border-top: 1px solid #f8f8f8;
     border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+
+
+.cards {
+    border: 5px solid black; 
+    margin-top: 5rem; 
+    margin-left: 1rem; 
+    padding-left: 5rem; 
+}
+
+
+/* layout for the individual cards holding the project */
+
+.card {
+    margin-bottom: 3rem; 
 }
