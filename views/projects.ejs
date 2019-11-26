@@ -18,7 +18,7 @@
                                     <div class="card-body">
                                       <h5 class="card-title">Agriworks</h5>
                                       <p class="card-text">Developing a web application that will mitigate the agrarian resource crisis in India</p>
-                                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                                      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#Agriworks">Read More</button>
                                     </div>
                             </div>
                     </div>                
@@ -28,7 +28,7 @@
                                     <div class="card-body">
                                       <h5 class="card-title">YelpCamp</h5>
                                       <p class="card-text">A NodeJS application that allows users to rate, share, and purchase custom campgrounds </p>
-                                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                                      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#YelpCamp">Read More</button>
                                     </div>
                             </div>
                     </div>
@@ -41,7 +41,7 @@
                                     <div class="card-body">
                                       <h5 class="card-title">Silent Party</h5>
                                       <p class="card-text">An iOS application that synchronizes music to create a party atmosphere for users</p>
-                                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                                      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#SilentParty">Read More</button>
                                     </div>
                                   </div>
                     </div>                
@@ -51,7 +51,7 @@
                                     <div class="card-body">
                                       <h5 class="card-title">MuchToDo</h5>
                                       <p class="card-text">An iOS application that customizes a users reminders.</p>
-                                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                                      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#MuchToDo">Read More</button>
                                     </div>
                             </div>
                     </div>                
@@ -61,7 +61,7 @@
                                     <div class="card-body">
                                       <h5 class="card-title">QuickStop</h5>
                                       <p class="card-text">A web application that optimizes users traveling in Boston</p>
-                                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                                      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#QuickStop">Read More</button>
                                     </div>
                             </div>
                     </div>
@@ -69,7 +69,7 @@
             </div>
     </div>
                               
-        <!-- Modal -->
+        <!-- Modals -->
         <div class="modal fade" id="FakeNews" tabindex="-1" role="dialog" aria-labelledby="FakeNewsLabel" aria-hidden="true">
                         <div class="modal-dialog" role="document">
                                 <div class="modal-content">
@@ -86,6 +86,138 @@
                                         <p>Fake News is a Google Chrome Browser Extension that helps check the authenticity of news articles online. Users can click the extension button to analyze the headline of the article they are viewing. 
                                                 The extension uses a Natural Language Processing Model built with Google Cloud to compare the headline to known Fake News headlines. 
                                                 It also uses a PageRank API to check the relevance of the website and offers articles from other sources relating to the keywords of the headline. 
+                                        </p>
+                                        
+                                </div>
+                                <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary">Save changes</button>
+                                </div>
+                                </div>
+                        </div>
+        </div>
+        <div class="modal fade" id="Agriworks" tabindex="-1" role="dialog" aria-labelledby="AgriworksLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                        <div class="modal-header">
+                                        <div class = "image-container">
+                                                <img class="card-img-top" src="/public/images/agriworksPersonal.png" alt="Card image cap">
+                                        </div>
+                                        <h5 style = "color: black" class="modal-title" id="AgriworksLabel">Agriworks Web Application</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                        </button>
+                                </div>
+                                <div class="modal-body">
+                                        <p>Agriworks is a web application that looks to help manage and understand agricultural resource consumption in India. 
+                                                The application inputs resource datasets and uses Python pandas and several other tools to create statistical interpretations of the data. 
+                                                These data models can be used by researchers, policymakers, non-profits, and citizens. The front-end is developed with VueJS and for the backend, 
+                                                we decided to implement it with Flask and MongoDB. 
+                                        </p>
+                                        
+                                </div>
+                                <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary">Save changes</button>
+                                </div>
+                                </div>
+                        </div>
+        </div>
+        <div class="modal fade" id="YelpCamp" tabindex="-1" role="dialog" aria-labelledby="YelpCampLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                        <div class="modal-header">
+                                        <div class = "image-container">
+                                                <img class="card-img-top" src="/public/images/campground.jpeg" alt="Card image cap">
+                                        </div>
+                                        <h5 style = "color: black" class="modal-title" id="YelpCampLabel">YelpCamp</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                        </button>
+                                </div>
+                                <div class="modal-body">
+                                        <p>YelpCamp is a node application that revolutionizes camping! The app allows users to rate, share and create their own custom campgrounds. 
+                                                I developed this project as a way to learn full-stack-development. The experience allowed me to learn concepts such as user authentication, 
+                                                cookies and sessions, and communication with databases on the back-end. The technologies used on this application are NodeJS, Express, MongoDB, 
+                                                HTML5, CSS, and Javascript
+                                        </p>
+                                        
+                                </div>
+                                <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary">Save changes</button>
+                                </div>
+                                </div>
+                        </div>
+        </div>
+        <div class="modal fade" id="SilentParty" tabindex="-1" role="dialog" aria-labelledby="SilentPartyLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                        <div class="modal-header">
+                                        <div class = "image-container">
+                                                <img class="card-img-top" src="/public/images/party.jpeg" alt="Card image cap">
+                                        </div>
+                                        <h5 style = "color: black" class="modal-title" id="SilentPartyLabel">SilentParty</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                        </button>
+                                </div>
+                                <div class="modal-body">
+                                        <p>SilentParty is a personal project of mine that is currently in the early stages of development. The project looks to synchronize music for users, as currently there 
+                                                is no effective way for multiple people to listen to one song, at one time, on their respective phones. I want to solve this problem while incorporating other features such as 
+                                                a queue system for the playlist and hopefully even video sharing! The application will be built with Firebase and Swift
+                                        </p>
+                                        
+                                </div>
+                                <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary">Save changes</button>
+                                </div>
+                                </div>
+                        </div>
+        </div>
+        <div class="modal fade" id="MuchToDo" tabindex="-1" role="dialog" aria-labelledby="MuchToDoLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                        <div class="modal-header">
+                                        <div class = "image-container">
+                                                <img class="card-img-top" src="/public/images/reminder.svg" alt="Card image cap">
+                                        </div>
+                                        <h5 style = "color: black" class="modal-title" id="MuchToDoLabel">MuchToDo</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                        </button>
+                                </div>
+                                <div class="modal-body">
+                                        <p>MuchToDo is an iOS application that customizes users reminders! This project exposed me to using CoreData and CRUD in Swift. I also implemented a 
+                                                version of this app with Realm. 
+                                        </p>
+                                        
+                                </div>
+                                <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary">Save changes</button>
+                                </div>
+                                </div>
+                        </div>
+        </div>
+        <div class="modal fade" id="QuickStop" tabindex="-1" role="dialog" aria-labelledby="QuickStopLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                        <div class="modal-header">
+                                        <div class = "image-container">
+                                                <img class="card-img-top" src="/public/images/quickStop.jpeg" alt="Card image cap">
+                                        </div>
+                                        <h5 style = "color: black" class="modal-title" id="QuickStopLabel">Fake News Chrome Extension</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                        </button>
+                                </div>
+                                <div class="modal-body">
+                                        <p>QuickStop is a Flask web application that tries to find the most efficient method of transportation for the user throughout the city of Boston. 
+                                                The metrics of efficiency include price, distance traveled, and expected arrival time. The application originally used the Uber, Lyft, MBTA, and Google Maps API. 
+                                                However, since the Uber API is currently deprecated, the application only supports the latter three services. This project was designed at HackHarvard and has now 
+                                                become a personal project I intent to complete. 
                                         </p>
                                         
                                 </div>
