@@ -3,30 +3,31 @@
             <div class = "row">
                     <div class = "col">
                             <div class="card" style="width: 18rem;">
-                                    <img class="card-img-top" src="..." alt="Card image cap">
+                                    <img class="card-img-top" src="/public/images/fakeNewsPersonal.jpg" alt="Card image cap">
                                     <div class="card-body">
-                                      <h5 class="card-title">Card title</h5>
-                                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                                      <h5 class="card-title">Fake News Chrome Extension</h5>
+                                      <p class="card-text">Built a Google Chrome Extension at BostonHacks that analyzes the authenticity of a news article </p>
+                                      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#FakeNews">Read More</button>
                                     </div>
                                   </div>
+                           
                     </div>                
                     <div class = "col">
                             <div class="card" style="width: 18rem;">
-                                    <img class="card-img-top" src="..." alt="Card image cap">
+                                    <img class="card-img-top" src="/public/images/agriworksPersonal.png" alt="Card image cap">
                                     <div class="card-body">
-                                      <h5 class="card-title">Card title</h5>
-                                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                      <h5 class="card-title">Agriworks</h5>
+                                      <p class="card-text">Developing a web application that will mitigate the agrarian resource crisis in India</p>
                                       <a href="#" class="btn btn-primary">Go somewhere</a>
                                     </div>
                             </div>
                     </div>                
                     <div class = "col">
                             <div class="card" style="width: 18rem;">
-                                    <img class="card-img-top" src="..." alt="Card image cap">
+                                    <img class="card-img-top" src="/public/images/campground.jpeg" alt="Card image cap">
                                     <div class="card-body">
-                                      <h5 class="card-title">Card title</h5>
-                                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                      <h5 class="card-title">YelpCamp</h5>
+                                      <p class="card-text">A NodeJS application that allows users to rate, share, and purchase custom campgrounds </p>
                                       <a href="#" class="btn btn-primary">Go somewhere</a>
                                     </div>
                             </div>
@@ -36,30 +37,30 @@
             <div class = "row">
                     <div class = "col">
                             <div class="card" style="width: 18rem;">
-                                    <img class="card-img-top" src="..." alt="Card image cap">
+                                    <img class="card-img-top" src="/public/images/party.jpeg" alt="Card image cap">
                                     <div class="card-body">
-                                      <h5 class="card-title">Card title</h5>
-                                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                      <h5 class="card-title">Silent Party</h5>
+                                      <p class="card-text">An iOS application that synchronizes music to create a party atmosphere for users</p>
                                       <a href="#" class="btn btn-primary">Go somewhere</a>
                                     </div>
                                   </div>
                     </div>                
                     <div class = "col">
                             <div class="card" style="width: 18rem;">
-                                    <img class="card-img-top" src="..." alt="Card image cap">
+                                    <img class="card-img-top" src="/public/images/reminder.svg" alt="Card image cap">
                                     <div class="card-body">
-                                      <h5 class="card-title">Card title</h5>
-                                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                      <h5 class="card-title">MuchToDo</h5>
+                                      <p class="card-text">An iOS application that customizes a users reminders.</p>
                                       <a href="#" class="btn btn-primary">Go somewhere</a>
                                     </div>
                             </div>
                     </div>                
                     <div class = "col">
                             <div class="card" style="width: 18rem;">
-                                    <img class="card-img-top" src="..." alt="Card image cap">
+                                    <img class="card-img-top" src="/public/images/quickStop.jpeg" alt="Card image cap">
                                     <div class="card-body">
-                                      <h5 class="card-title">Card title</h5>
-                                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                      <h5 class="card-title">QuickStop</h5>
+                                      <p class="card-text">A web application that optimizes users traveling in Boston</p>
                                       <a href="#" class="btn btn-primary">Go somewhere</a>
                                     </div>
                             </div>
@@ -67,4 +68,32 @@
     
             </div>
     </div>
+                              
+        <!-- Modal -->
+        <div class="modal fade" id="FakeNews" tabindex="-1" role="dialog" aria-labelledby="FakeNewsLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                        <div class="modal-header">
+                                        <div class = "image-container">
+                                                <img class="card-img-top" src="/public/images/fakeNewsPersonal.jpg" alt="Card image cap">
+                                        </div>
+                                        <h5 style = "color: black" class="modal-title" id="FakeNewsLabel">Fake News Chrome Extension</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                        </button>
+                                </div>
+                                <div class="modal-body">
+                                        <p>Fake News is a Google Chrome Browser Extension that helps check the authenticity of news articles online. Users can click the extension button to analyze the headline of the article they are viewing. 
+                                                The extension uses a Natural Language Processing Model built with Google Cloud to compare the headline to known Fake News headlines. 
+                                                It also uses a PageRank API to check the relevance of the website and offers articles from other sources relating to the keywords of the headline. 
+                                        </p>
+                                        
+                                </div>
+                                <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary">Save changes</button>
+                                </div>
+                                </div>
+                        </div>
+        </div>
 <% include partials/footer %> 
