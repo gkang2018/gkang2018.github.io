@@ -115,3 +115,21 @@ hr {
 }
 
 
+/* About Me Section */
+.about-me {
+    width: 100%; 
+}
+
+.about-me h2 {
+    text-align: center; 
+    text-transform: uppercase; 
+}
+
+.about-me .col-left, .about-me .col-right {
+    width: 50%; 
+    float: left;
+}
+
+.about-me .col-left img {
+    max-width: 100%; 
+}
