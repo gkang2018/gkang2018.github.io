@@ -122,12 +122,17 @@ hr {
 
 .about-me h2 {
     text-align: center; 
-    text-transform: uppercase; 
+    text-transform: uppercase;  
 }
 
 .about-me .col-left, .about-me .col-right {
     width: 50%; 
     float: left;
+}
+
+.about-me .col-left {
+    padding-left: 5%;
+    padding-right: 5%; 
 }
 
 .about-me .col-left img {
