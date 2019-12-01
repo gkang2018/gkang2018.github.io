@@ -18,6 +18,10 @@ app.get("/projects/", function(req,res){
     res.render("projects.ejs")
 });
 
+app.get("/fakenews/", function(req,res){
+    res.render("fakenews.ejs")
+});
+
 
 
 app.listen(3000, function(){
