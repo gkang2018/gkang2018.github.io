@@ -1,2 +1,2 @@
 # personal-website
-Repo for my personal website (in development) 
+Repo for my personal website 
